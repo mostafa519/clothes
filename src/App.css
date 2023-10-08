@@ -1,0 +1,7 @@
+:root {
+  --mainColor: #f00;
+  --textColor: #000;
+}
+.mainColor {
+  color: var(--mainColor);
+}

@@ -1,0 +1,39 @@
+/* @media (max-width: 767px) {
+  .thumb {
+    display: none;
+  }
+} */
+.genradiv {
+  display: flex;
+  justify-content: center;
+}
+.register .form {
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 15px 10px;
+}
+
+.register ::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 25px;
+}
+.register input:focus::placeholder {
+  padding-left: 0 !important;
+}
+
+.register .form-control:focus {
+  padding-left: 40px !important;
+  border-color: #dee2e6 !important;
+  box-shadow: none !important;
+}
+.register .form-control.is-invalid {
+  padding-left: 40px !important;
+  border-color: #dc3545 !important;
+}
+.register .icon_user,
+.register .icon_email,
+.register .icon_password {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 25px;
+}

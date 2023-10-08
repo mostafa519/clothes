@@ -1,0 +1,44 @@
+.login {
+  display: flex;
+  justify-content: center;
+}
+.login .forma {
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 15px 10px;
+}
+
+.login ::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 25px;
+}
+
+.login input {
+  padding-left: 25px !important;
+}
+.login .form-control:focus {
+  padding-left: 40px !important;
+  border-color: #dee2e6 !important;
+  box-shadow: none !important;
+}
+.login .form-control.is-invalid {
+  padding-left: 40px !important;
+  border-color: #dc3545 !important;
+}
+/* .login .form-control.is-invalid:placeholder-shown {
+  padding-left: 0px !important;
+  border-color: #dc3545 !important;
+} */
+.login input:focus::placeholder {
+  padding-left: 0 !important;
+}
+
+.login .icon_email,
+.login .icon_password {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  font-size: 25px;
+}
+.login .invalid-feedback {
+  font-size: 12px;
+}

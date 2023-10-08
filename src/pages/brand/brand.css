@@ -1,0 +1,32 @@
+.brand-section .title {
+  color: #182531;
+  display: flex;
+  padding-bottom: 6px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #e1e1e1;
+  align-items: center;
+}
+
+.brand-section .title h1 {
+  margin: 15px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+.brand-section .brand {
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+}
+.brand-section .brand .brand-img {
+  display: flex;
+  justify-content: center;
+}
+.brand-section .brand .brand-title {
+  display: block;
+  background: var(--mainColor);
+  color: var(--textColor);
+  padding: 5px;
+  border-radius: 0 0 3px 3px;
+  text-align: center;
+  text-transform: capitalize;
+}

@@ -1,0 +1,16 @@
+.filter_By_Category .form-check-label {
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+  color: var(--textColor);
+  text-transform: capitalize;
+}
+.filter_By_Category .form-check-input:checked {
+  background-color: red;
+  border-color: red;
+}
+.filter_By_Category .form-check-input:focus {
+  box-shadow: none !important;
+  /* border: none !important; */
+  border-color: #ddd;
+}

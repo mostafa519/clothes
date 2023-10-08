@@ -1,0 +1,27 @@
+.header-icon {
+  width: 28px;
+}
+@media (min-width: 767px) {
+  .header .icons {
+    width: 75%;
+  }
+}
+.header .input-search:focus {
+  box-shadow: none !important;
+  border-color: #dee2e6 !important;
+}
+.header .input-search {
+  color: #707070 !important;
+  font-size: 12px !important;
+  /* padding: 8px !important; */
+  padding-inline: 15px 50px !important;
+  height: 42px;
+  border-radius: 4px !important;
+
+  border: 1px solid #eee !important;
+}
+.header .login,
+.header .register {
+  text-decoration: none;
+  color: var(--textColor);
+}

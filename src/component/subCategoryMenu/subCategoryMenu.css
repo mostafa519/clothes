@@ -1,0 +1,16 @@
+.subCategoryMenu .global-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.subCategoryMenu .global-list a {
+  text-decoration: none;
+  color: #333333ce;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+.subCategoryMenu .global-list a:hover {
+  color: var(--mainColor);
+}
